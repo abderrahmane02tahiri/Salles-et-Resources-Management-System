@@ -92,9 +92,6 @@ For any questions or inquiries about this project, please feel free to reach out
 Thank you for your interest in the Promamec Resource Management System!
 
 
-
-
-
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+PRMS is licensed under the MIT License. Refer to the LICENSE file for more details.
