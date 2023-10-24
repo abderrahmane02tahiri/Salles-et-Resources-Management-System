@@ -1,4 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Promamec Salles et Resources Management System
+
+## Project Overview
+
+Welcome to the Promamec Resource Management System (PRMS) repository! This project was developed as part of my internship at Promamec and aims to provide a comprehensive solution for managing rooms and resources within the company. PRMS streamlines the allocation and monitoring of company assets, ensuring efficient resource utilization.
+
+## Features
+
+- **Room Management**: Easily add, edit, and remove rooms within the organization. Allocate specific resources to each room for better tracking.
+
+- **Resource Allocation**: Assign resources, such as equipment, furniture, and tools, to different rooms. Keep track of resource availability and usage.
+
+- **User-Friendly Interface**: The PRMS is designed with a user-friendly and intuitive interface, making it easy for employees to manage and locate resources.
+
+- **Reporting**: Generate reports on room occupancy, resource allocation, and usage trends. Gain insights into resource utilization for informed decision-making.
+
+## Technologies Used
+
+- **Laravel**: The backend of the PRMS is built using the Laravel PHP framework, providing a robust and secure foundation for the application.
+
+- **MySQL**: The database system used for data storage and management.
+
+- **HTML/CSS/Bootstrap**: Front-end development is implemented with HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
+
+- **JavaScript**: Used to add interactivity and enhance the user experience.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+
+   git clone https://github.com/abderrahmane02tahiri/Gestion-des-salles-et-actifs
+   
+2.Change directory to the project folder:
+```
+   cd Gestion-des-salles-et-actifs
+```   
+3.Install the project dependencies using Composer:
+```
+   composer install
+```   
+4.Create a .env file and set up your database configuration.
+
+5.Run database migrations to create the necessary tables:
+```
+   php artisan migrate
+``` 
+6.Start the development server:
+```
+   php artisan serv
+```
+   The PRMS will be accessible at http://localhost:8000.
+
+   <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -21,41 +74,26 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Usage
+Register as a user or log in if you already have an account.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Navigate through the user-friendly interface to manage rooms and allocate resources.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+Generate reports to gain insights into resource utilization.
 
 ## Contributing
+Contributions to this project are welcome. If you encounter any issues, have ideas for improvements, or would like to add new features, please submit a pull request. Be sure to follow best coding practices and maintain clear and concise code.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Acknowledgments
+I would like to express my gratitude to the team at Promamec for their support and guidance during my internship, which made this project possible.
 
-## Code of Conduct
+For any questions or inquiries about this project, please feel free to reach out.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Thank you for your interest in the Promamec Resource Management System!
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+
 
 ## License
 
